@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer className="bg-linear-to-b from-gray-900 to-gray-700 text-white py-8">
       <div className="flex justify-center gap-10 font-semibold">
         <Link href="/" className="transition-colors duration-300 hover:text-red-400">HOME</Link>
         <Link href="/profile" className="transition-colors duration-300 hover:text-red-400">PROFILE</Link>

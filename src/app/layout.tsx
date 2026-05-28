@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 //headのメタデータをここで定義＆出力してる。
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Hiromasa",
   description: "Hiromasa's portfolio",
 };
 
