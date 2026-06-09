@@ -9,7 +9,7 @@ export default function Footer() {
             <li><Link href="/" className="transition-colors duration-300 hover:text-red-400">HOME</Link></li>
             <li><Link href="/profile" className="transition-colors duration-300 hover:text-red-400">PROFILE</Link></li>
             <li><Link href="/works" className="transition-colors duration-300 hover:text-red-400">WORKS</Link></li>
-            <li><Link href="/contacts" className="transition-colors duration-300 hover:text-red-400">CONTACTS</Link></li>
+            <li><Link href="/contact" className="transition-colors duration-300 hover:text-red-400">CONTACTS</Link></li>
           </div>
         </ul>
       </nav>
