@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Profile() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-10">
@@ -11,12 +13,23 @@ export default function Profile() {
           <h2 className="text-2xl font-bold border-b pb-2 mb-4">
             プロフィール
           </h2>
-          <p>
-            情報系大学に通う大学生です。
-            Webアプリケーション開発やゲーム開発を中心に学習しています。
-            ユーザーが使いやすいサービスを作ることを目標にしています。
-            最近はイラスト制作が楽しい。
-          </p>
+          <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
+            <Image
+              src="/drinking_myself.png"
+              alt="飲み会の写真"
+              width={200}
+              height={100}
+              className="shrink-0 rounded-lg shadow-lg"
+              />
+            <p>
+              　情報系大学に通う大学生です。
+              Webアプリケーション開発やゲーム開発を中心に学習しています。
+              Blenderなんかもかじったりしていて、わりと見栄えが良いエンタメ系の技術は積極的に学ぼうとしています。<br/>
+              　日本のアニメや漫画が本当に大好きで、その中で見られるクリエイターの魂や思いなんかを感じると
+              嬉しくなっちゃって悶えます。そんなクリエイターに自分も日々近づけるよう頑張りたいなと思う今日このごろです。
+              最近はイラスト制作が滅茶苦茶楽しい。
+            </p>
+          </div>
         </section>
 
         {/* 基本情報 */}
