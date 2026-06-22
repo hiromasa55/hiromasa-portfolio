@@ -1,4 +1,4 @@
-import myPhoto from "./self-portrait.png";
+import Image  from "next/image";
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
         font-bold 
         text-5xl
         ">誰よりも熱い男 戸塚博理</h1>
-      <img src={myPhoto.src} alt="self-portrait" className="mx-auto my-6"/>
+      <Image src="/self-portrait.png" alt="self-portrait" className="mx-auto my-6" width={600} height={600}/>
       <p className="text-2xl mb-10">生まれも育ちは群馬県<br/>
         群馬県立前橋東高等学校で進路を考え<br />
         思い立って情報の分野を学びに福島へ<br />
