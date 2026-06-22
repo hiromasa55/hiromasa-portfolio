@@ -57,6 +57,11 @@ https://hiromasa-portfolio.vercel.app/
 Issue駆動で開発を行い、
 Projectsを用いてタスク管理を実施しました。
 
+### お問い合わせページ
+
+お問い合わせページに送った内容は、
+確認用Discordチャンネルに届くよう設計しました。
+
 ## セットアップ
 
 ```bash
