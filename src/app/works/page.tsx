@@ -24,6 +24,13 @@ export default function Works() {
     image: "/w-duel.png",
     href: "https://scratch.mit.edu/projects/1172320487",
   },
+  {
+    title: "学食提案管理アプリ-ぺこナビ-",
+    description: "王になるため、棒人間が動物の帝王を倒していく",
+    tech: ["React ", "Node(Express) ", "OPENROUTER(API) "],
+    image: "/pekonavi.png",
+    href: "https://github.com/hiromasa55/hackathon-study",
+  },
   ];
 
   return (
