@@ -26,7 +26,7 @@ export default function Works() {
   },
   {
     title: "学食提案管理アプリ-ぺこナビ-",
-    description: "王になるため、棒人間が動物の帝王を倒していく",
+    description: "ハッカソンでチーム開発した、企業賞受賞WEBアプリ",
     tech: ["React ", "Node(Express) ", "OPENROUTER(API) "],
     image: "/pekonavi.png",
     href: "https://github.com/hiromasa55/hackathon-study",
